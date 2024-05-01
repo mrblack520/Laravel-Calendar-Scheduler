@@ -1,0 +1,38 @@
+:root {
+    --fc-border-color: white;
+    --fc-daygrid-event-dot-width: 6px;
+ 
+  }
+
+
+  .fc .fc-col-header-cell-cushion { /* needs to be same precedence */
+    padding-top: 15px; /* an override! */
+    padding-bottom: 5px; /* an override! */
+    font-weight: 400;
+    color: #000000;
+
+  }
+
+  .fc {
+    .fc-daygrid-body {
+      .fc-daygrid-day-top {
+        margin-left: 20px;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+    .fc-event-add {
+      padding: 4px;
+      cursor: pointer;
+      color: #313030;
+      &:hover {
+        color: #000000;
+      }
+    }
+    .fc-daygrid-day-number{
+        color: #272727;
+        font-weight: bold;
+    }
+  }
+ 
+  
